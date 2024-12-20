@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            background:#eee;
+            font-family:verdana;
+        }
+        p{
+            font-size: 16px;
+        }
+          header{
+            display: flex;
+            position: relative;
+            justify-content: left;
+            align-items: center;
+            background-color: black;
+            height: 10vh;
+            width: 100vw;
+            margin: auto;
+            color:#ff9;
+            background-color:#000;
+            padding:10px; 
+        }
+        header>p{          
+            vertical-align: middle;
+            margin-left: 1em;
+            text-align: left;
+            color: yellow;
+        }
+        nav{
+            display: block;
+            position: relative;
+            background-color: rgb(80, 76, 76);
+            height: 80vh;
+            width: 25%;
+        }
+        ul{
+            margin-top: 1em;
+            margin-left: 0.5em;
+            text-decoration: none;
+        }
+        a{
+            color: greenyellow;
+            text-decoration: underline;
+        }
+        footer{
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background-color: rgb(133, 124, 124);
+            height: 10vh;
+            width: 100vw;
+            text-align: center;
+        }
+        footer>p{
+            margin-top: 5%;
+            margin-bottom:5%;
+            text-align: center;
+            color: red;
+        }
+        main{
+            display: block;
+            position: relative;
+            background-color: lightblue;
+            height: 80vh;
+            width: 75%;
+            background-color:#ddd;
+            float:right;
+            height:500px;
+            padding:10px;
+            width:560px;
+        }
+        main>p{
+            margin-left: 0.3em;
+            color: rgb(247, 115, 192);
+            font-size: 3em;
+            font-weight: 600;
+        }
+      
+    </style>
+
+</head>
+<body>
+    <header id="cabeceira"><p>Párrafo en la cabecera de la página</p></header>
+    <nav id="navegacion">
+        <ul>
+           <li style="list-style-type: none;"><a href="">Enlace 1</a></li> 
+           <li  style="list-style-type: none;"><a href="">Enlace 2</a></li>
+           <li style="list-style-type: none;"><a href="">Enlace 3</a></li>
+        </ul>
+    </nav>
+    <main id="contido"><p>Ejemplo: Uso del elemento "div" y del atributo <i>id</i></p></main>
+    <footer id="pe">
+        <p>Párrafo en el pie de la página</p>
+    </footer>
+</body>
+</html>

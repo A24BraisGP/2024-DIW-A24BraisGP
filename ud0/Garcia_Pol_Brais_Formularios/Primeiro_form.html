@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      main {
+        display: flex;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 50vw;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <form action="" method="POST">
+        <p>
+          Nome: <input id="nome" type="text" size="50" placeholder="Nome" />
+        </p>
+        <p>
+          Correo electrónico:<input
+            id="email"
+            type="email"
+            size="50s"
+            placeholder="Email"
+          />
+        </p>
+        <p>Mensaje:<textarea id="mensaje" name="mensaje"></textarea></p>
+        <br />
+        <button name="enviar" type="submit">Enviar formulario</button>
+      </form>
+    </main>
+  </body>
+</html>
